@@ -1,0 +1,14 @@
+@-moz-document domain("discord.com") {
+:root {
+    --cute-contrast-fg: #bf104c;
+}
+
+.theme-light body {
+    --background-primary: #FFE5F1;
+    --background-secondary: #FFE5F1;
+    --background-tertiary: #FFE5F1;
+    --text-normal: #e52d69;
+    --interactive-active: var(--cute-contrast-fg); 
+    --channels-default: var(--cute-contrast-fg);
+}
+}
