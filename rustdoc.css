@@ -1,0 +1,78 @@
+@-moz-document url-prefix("https://gtk-rs.org/gtk4-rs/stable/latest/docs/"), url-prefix("https://gtk-rs.org/gtk3-rs/"), url-prefix("https://gtk-rs.org/gtk4-rs/git/docs/"), domain("docs.rs"), domain("doc.rust-lang.org") {
+:root {
+    --cute-contrast-fg: #bf104c;
+    --cute-background: #FFE5F1;
+    --background-secondary: #FFE5F1;
+    --background-tertiary: #FFE5F1;
+    --text-normal: #e52d69;
+    --interactive-active: var(--cute-contrast-fg);
+    --channels-default: var(--cute-contrast-fg);
+    --color-background: #FAFAFA;
+    --color-standard: var(--text-normal);
+    --color-brand: var(--text-normal);
+    --color-navbar-standard: var(--text-normal);
+}
+
+
+body {
+    background-color: var(--cute-background);
+    color: var(--text-normal);
+}
+
+.sidebar,
+.mobile-topbar,
+.sidebar-menu-toggle {
+    background-color: var(--cute-background);
+}
+
+.code-header.in-band {
+    background-color: var(--background-secondary);
+}
+
+.main-heading .in-band {
+    background-color: var(--cute-background);
+}
+
+.code-header {
+    color: #C869A3;
+    background-color: #FDD8FF;
+}
+
+.code-header .fnname {
+    color: var(--text-normal);
+}
+
+.code-header .fnname + .type {
+    color: #C869A3;
+}
+
+
+.code-header .primitive {
+    color: #df81b8;
+}
+
+.op + .ident {
+    color: #7C75EF;
+}
+
+
+.code-header .struct {
+    color: #7C75EF !important;
+}
+
+h1,
+h2,
+h3,
+.sidebar h2 a,
+.sidebar h3 a,
+.sidebar h1 a {
+    color: var(--text-normal);
+}
+
+
+
+
+.sidebar a {
+    color: var(--cute-contrast-fg);
+}
+}
